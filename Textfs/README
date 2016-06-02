@@ -1,0 +1,35 @@
+Assumptions: internal files are the files in textfs and external files are the files in external file system
+
+The following commands are used
+1) create 'filename'
+	create an internal file 'filename'
+	
+2) delete 'filename'
+	delete internal file 'filename'
+	
+3) echo 'filename'
+	display contents of internal file 'filename'
+	
+4) copy 'internal_file' 'external_file'
+	copy content of 'external_file' to 'internal_file'
+	
+5) list
+	list all files in file system
+	
+6) help
+	display help contents
+	
+7) reset
+	format file system
+	
+Structure of the implemented filesystem:
+Super block
+	Total number of files 
+	Total size of filesytem data block
+Metadata block
+	Inode number
+	Filename
+	Size of file
+Data block
+	Filename
+	Data of file

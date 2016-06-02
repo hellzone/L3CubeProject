@@ -1,0 +1,19 @@
+In Simple Version Control for files we have included the following command line options:
+
+1) svc 'filename'
+	To display current version of file 'filename'
+	
+2) svc 'filename' -v 'v' 
+	To know the version 'v' of file 'filename'
+	
+3) svc 'filename' -a 'characters'
+	To append 'characters' to file 'filename'
+	
+4) svc -d 'number'
+	To delete line number 'number' from file 'filename'
+	
+5) svc -r 'v'
+	To revert back to version 'v'
+	
+6) svc -h
+	To display help options

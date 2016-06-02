@@ -1,0 +1,5 @@
+In this assignment we are simulating the searching of duplicate files on hard drive in a directory. 
+The user can select any directory in which the duplicate files are to be found.
+The duplicate files are found on the basis of their names and md5 hashing algorithm.
+If files with same name exist under a directory subtree then their md5 hash is checked to find duplication.
+The user is given option to delete or retain a file.
