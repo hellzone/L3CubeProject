@@ -1,9 +1,0 @@
-In probability theory, the birthday problem or birthday paradox concerns the probability that, in a set of n randomly chosen people, some pair of them will have the same birthday.
-We have assumed that all 366 days of the year are equally probable for a birthday.
-The percentage probability of having at least one pair of same birthday out of n randomly chosen people is
-100-100*(Permutation(366,n)/366^n)
-To prove the results, we are taking 100 random experiments for any input group size to find percent probability. 100 such percent probabilities are calculated and their average is taken for more precision.
-The results obtained from the random experiments and by standard formula are almost similar. 
-We have also displayed comparative results graphically.
-For graphical results please install matplotlib library in python 
-Command: sudo pip install matplotlib
