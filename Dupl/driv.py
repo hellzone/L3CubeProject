@@ -21,9 +21,6 @@ for line in arr:
     #print line
     k=line.split("/")                            #Extracting only file name 
     output.append(k[len(k)-1])
-    dic[k[len(k)-1]]=os.system("md5sum "+ k[len(k)-1]) 
-
-print dic
 
 for i in range (0,len(output)-1):                   
     for j in range (0,len(output)-1):                 
